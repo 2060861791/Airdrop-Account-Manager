@@ -2,7 +2,7 @@
 
 一款基于 **Vue3 + Element Plus** 的本地账号管理工具，专为区块链空投账号批量管理设计。  
 所有数据仅保存在本地浏览器，安全可靠，无需联网。
-<img width="2524" height="1096" alt="image" src="https://github.com/user-attachments/assets/824b7e32-4028-41c4-9cd2-eca11a7c8c4f" />
+<img width="2559" height="1148" alt="image" src="https://github.com/user-attachments/assets/1c39f844-313e-4a7d-8bf8-86546a3d73e4" />
 
 ---
 
