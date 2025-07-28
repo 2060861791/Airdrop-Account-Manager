@@ -25,7 +25,7 @@
                     <template #default="scope">
                         <span class="cell-copy x-section" @click="copyText(scope.row.x?.[key])">{{ scope.row.x?.[key]
                             }}</span>
-                        <!-- 新增：如果是fa2字段，显示2FA验证码和倒计时，可点击复制，始终一行显示 -->
+                        <!-- 新增：如果是2FA字段，显示2FA验证码和倒计时，可点击复制，始终一行显示 -->
                         <template v-if="key === 'fa2' && scope.row.x?.fa2">
                             <span class="cell-copy x-section"
                                 style="margin-left:8px; color:#409EFF; font-weight:bold; cursor:pointer; white-space:nowrap;"
@@ -171,8 +171,8 @@
     const formRef = ref()
     const fileInput = ref()
 
-    const xLabels = { password: '密码', email: '邮箱', emailPwd: '邮箱密码', fa2: 'FA2' }
-    const tgLabels = { phone: '手机', fa2: 'FA2密码' }
+    const xLabels = { password: '密码', email: '邮箱', emailPwd: '邮箱密码', fa2: '2FA' }
+    const tgLabels = { phone: '手机', fa2: '2FA密钥' }
     const dcLabels = { account: '账号', password: '密码' }
 
     const rules = {
